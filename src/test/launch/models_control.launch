@@ -1,0 +1,16 @@
+<launch>
+    <!-- teleop -->
+    <include file="$(find wego)/launch/teleop.launch"/>
+    <include file="$(find wego)/launch/navigation.launch"/>
+
+    <!-- navigation_client.py -->
+    <node name="navigation_client" pkg="wego" type="navigation_client.py"/> 
+    
+    <!--main_control-->
+    <node name="models_driving" pkg="test" type="models_driving.py"/> 
+    <node name="cam_lane_detect" pkg="test" type="cam_lane_detect.py"/> 
+    <node name="stopline_traffic" pkg="test" type="stopline_traffic.py"/> 
+    <node name="LidarObsDetect" pkg="test" type="LidarObsDetect.py"/> 
+
+
+</launch>
