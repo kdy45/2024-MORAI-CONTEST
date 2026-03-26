@@ -1,4 +1,4 @@
-"# 2024-MORAI-CONTEST" 
+# 2024 MORAI CONTEST
 
 
 ## Main function
