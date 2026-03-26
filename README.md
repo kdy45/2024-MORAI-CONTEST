@@ -12,9 +12,9 @@
 
 ## Installaiton & build
 
-$ git clone https://github.com/kdy45/2024-MORAI-CONTEST.git
-$ cd ./2024-SAE-ME-HACKATHON
-$ catkin_make
+$ git clone https://github.com/kdy45/2024-MORAI-CONTEST.git  
+$ cd ./2024-SAE-ME-HACKATHON  
+$ catkin_make  
 
 
 
@@ -24,5 +24,5 @@ $ catkin_make
 #Enter each command line in a different shell.  
 
 $ roscore  
-$ roslaunch models_control.launch
+$ roslaunch models_control.launch  
 
